@@ -7,4 +7,6 @@
   $server_password = 'password';
   $db = 'pogousers';
   $conn = new mysqli($servername, $server_username, $server_password, $db);
+
+  echo 'wassup';
 ?>
