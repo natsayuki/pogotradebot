@@ -6,5 +6,12 @@
   </head>
   <body>
     <h1>POGO UNC Trade Database</h1>
+    <?php
+      $sql = 'SELECT * FROM users';
+      $results = $conn->query($sql);
+      while($rows = $results->fetch_assoc()){
+        echo $rows['name'];
+      }
+    ?>
   </body>
 </html>
