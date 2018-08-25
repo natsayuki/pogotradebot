@@ -12,6 +12,7 @@
       while($rows = $results->fetch_assoc()){
         echo $rows['name'];
       }
+      echo '^^ List of names ^^';
     ?>
   </body>
 </html>
